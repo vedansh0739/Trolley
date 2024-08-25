@@ -120,7 +120,7 @@ def buildapi():
                             scopes=creds_data['scopes'])
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyCjQh9iAczX9tT3r-xVIGMMdwfjuDGJ-8E"
+    DEVELOPER_KEY = $DEVELOPER_KEY
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, credentials=credentials
         )
